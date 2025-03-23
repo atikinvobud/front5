@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Авторизация</h1>
+        
+        <div id="login-form">
+            <input type="text" id="login" placeholder="Логин" required>
+            <input type="password" id="password" placeholder="Пароль" required>
+            <button id="login-btn">Войти</button>
+            <button id="register-btn">Зарегистрироваться</button>
+        </div>
+
+        <div id="message" class="message"></div>
+        
+        <div id="profile" class="profile" style="display: none;">
+            <h2>Профиль</h2>
+            <p id="profile-info"></p>
+            <button id="logout-btn">Выйти</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
